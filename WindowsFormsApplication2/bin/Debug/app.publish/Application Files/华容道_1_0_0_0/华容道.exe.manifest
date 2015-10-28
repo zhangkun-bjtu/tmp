@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="华容道.exe" version="1.0.0.0" publicKeyToken="9ace370a34189840" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="1b3fca161b1fc90ca6849316a84cbbba.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="华容道" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="华容道.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="华容道.exe" size="1134080">
+      <assemblyIdentity name="华容道" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>F+yVJhOWq0j3CaZCczSR8Cy4PWk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1b3fca161b1fc90ca6849316a84cbbba.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kICFOdP8E25yuaeU4YuUHefmi/Y=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PC-20130712JMET\Administrator" issuerKeyHash="124ee9521ed1970df58ae46c44899b197151c8ed" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CSbuuhUVovPusaiaBWNFNvFG2/U=</DigestValue></Reference></SignedInfo><SignatureValue>CWYSRcy49sythsa1cyHRVZ+pQ2HIqaD86kWQZP0I8xQYIsno9sQM1CH5MsJgjD0/HuPjj4WGmNUEG+oq7zdXdEyn4aPVbyPIIATtD86S/5tCzvNgA1NANmCfWxjsof20WSkkzu/GwCTqO9o61UIRWPMrr7D20GK34oZorRjpd2E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6G8YZMlQziQXKD3amw7XxeJ6T1+3LVi5d6zQzowSnYLMd6jYS4ywFJfWSt2uqylgEIdbp8/75Np9zhxi5+NWyCe1SZqJjEXx+LMK04rKhNv7gV4WQv86ld623uujQpTDJ2uhA9Evtug3B3ZRtPXrJvnHcqyDH2TiHTedVsGc/wE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f5db46f1364563059aa8b1eef3a21515baee2609" Description="" Url=""><as:assemblyIdentity name="华容道.exe" version="1.0.0.0" publicKeyToken="9ace370a34189840" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC-20130712JMET\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Ar79bOcuJUBPD844lunT/nep+OQ=</DigestValue></Reference></SignedInfo><SignatureValue>1A+omUj/UM+lP/8LUny+8czEJ/b1aGxmwfj4TnWPbHt5BaXoG+QFoikNd2FYDE2140ItJ24Ku5Uh6/QSbpbIkaROFHObSsrpVbxzPbmK6dMal2vK1fqddq3GwE46S6WHXQcPaixYZ4JjjvE5HrGrsoPVw1c/KoXyc9cGUOjnhJE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6G8YZMlQziQXKD3amw7XxeJ6T1+3LVi5d6zQzowSnYLMd6jYS4ywFJfWSt2uqylgEIdbp8/75Np9zhxi5+NWyCe1SZqJjEXx+LMK04rKhNv7gV4WQv86ld623uujQpTDJ2uhA9Evtug3B3ZRtPXrJvnHcqyDH2TiHTedVsGc/wE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQJEMVhaussqdMV80GY+fI0DANBgkqhkiG9w0BAQUFADBFMUMwQQYDVQQDHjoAUABDAC0AMgAwADEAMwAwADcAMQAyAEoATQBFAFQAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE1MTAyODExNTUwNloXDTE2MTAyNzE3NTUwNlowRTFDMEEGA1UEAx46AFAAQwAtADIAMAAxADMAMAA3ADEAMgBKAE0ARQBUAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA6G8YZMlQziQXKD3amw7XxeJ6T1+3LVi5d6zQzowSnYLMd6jYS4ywFJfWSt2uqylgEIdbp8/75Np9zhxi5+NWyCe1SZqJjEXx+LMK04rKhNv7gV4WQv86ld623uujQpTDJ2uhA9Evtug3B3ZRtPXrJvnHcqyDH2TiHTedVsGc/wECAwEAATANBgkqhkiG9w0BAQUFAAOBgQC5+j2t8/WIVRr2sIQQ/BOAFNOvoJxeg8Oa25iGlp6tvxbCS4ktsHL005kntrWx15KoI273MrsNzxCImndAjTrcnG0SuYiSj+ntI1lhg8KX2j6mDgL0cfMZHg2A7Xx0UkFbv+hv18KcLETHO4NruFmdrJI6mr+vtkG02M2xIMtKvw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

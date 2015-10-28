@@ -1,0 +1,15 @@
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\bin\Debug\华容道.exe
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\bin\Debug\华容道.pdb
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\obj\Debug\ResolveAssemblyReference.cache
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\obj\Debug\BlockJam.csproj.GenerateResource.Cache
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\obj\Debug\华容道.exe
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\obj\Debug\华容道.pdb
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\obj\Debug\BlockJam.MainWindow.resources
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\obj\Debug\SearchPath.inputstatus.resources
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\obj\Debug\SearchPath.progress.resources
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\obj\Debug\SearchPath.showans.resources
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\obj\Debug\SearchPath.Properties.Resources.resources
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\bin\Debug\华容道.exe.manifest
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\bin\Debug\华容道.application
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\obj\Debug\华容道.exe.manifest
+E:\vc2008工作区\我的模板\华容道\WindowsFormsApplication2\obj\Debug\华容道.application
